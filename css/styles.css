@@ -62,8 +62,8 @@ header h1{
 .menu-btn span {
     display: block;
     width: 24px;
-    height: 4px;
-    margin: 4px 0;
+    height: 2px;
+    margin: 5px 0;
     background: white;
     z-index: 99;
     border-radius: 10px;
@@ -73,10 +73,11 @@ header h1{
 
 .menu-btn.float-right{
 	border: 2px solid white;
-    padding: 4px 8px;
+    padding: 4px 8px 1px;
     border-radius: 4px;
     min-height: 29px;
-    
+    transition: all 0.5s ease;
+
 }
 
 
@@ -84,6 +85,7 @@ header h1{
 	cursor: pointer;
 	background-color: #236CA5;
 	border: 2px solid black;
+	transition: all 0.5s ease;
 
 }
 
@@ -102,12 +104,6 @@ ul.navbar-list{
 	display:none;
 }
 
-.cf:after, .cf:before{
-	content: "";
-	display: block;
-	clear: both;
-}
-
 .lvl-1 {
 	-webkit-transition-duration: 0.2s;
 	margin-top: 0px;
@@ -119,7 +115,7 @@ ul.navbar-list{
     transform: rotate(-45deg);
     z-index: -1;
     -webkit-transition-duration: 0.2s;
-    margin-top: 10px !important;
+    margin-top: 13px !important;
 }
 
 .lvl-2 {
